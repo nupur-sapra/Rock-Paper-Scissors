@@ -1,13 +1,13 @@
 const imgArry = [{
-        img: "/stone.png",
+        img: "stone.png",
         id: "rock-img"
     },
     {
-        img: "/white-paper.png",
+        img: "white-paper.png",
         id: "paper-img"
     },
     {
-        img: "/scissor-1.png",
+        img: "scissor-1.png",
         id: "scissor-img"
     }
 ]
@@ -100,13 +100,13 @@ function showResult(computerScore, userScore) {
 }
 
 function defaultSet() {
-    paper.innerHTML = '<img src="/white-paper.png" id="paper-img" alt="">'
+    paper.innerHTML = '<img src="white-paper.png" id="paper-img" alt="">'
     paper.classList.remove('border')
     paper.classList.add('hover');
     rockDiv.classList.add('hover');
     scissorDiv.classList.add('hover');
-    rock.src = "/stone.png";
-    scissor.src = "/scissor-1.png";
+    rock.src = "stone.png";
+    scissor.src = "scissor-1.png";
     rockDiv.classList.remove('blueShadow')
     scissorDiv.classList.remove('redShadow')
     userResult.style.color = '#ffc55a';
